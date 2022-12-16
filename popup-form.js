@@ -118,8 +118,7 @@ class MainForm extends React.Component {
       className: "g-recaptcha",
       "data-sitekey": "6LeXO4YjAAAAAMJ6PqwVuMuzawdg-6CSqouUgjTv",
       "data-theme": "dark",
-      "data-callback": "captchaCallback",
-      "data-expired-callback": "captchaCallback"
+      "data-callback": "captchaCallback"
     })), React.createElement("button", {
       type: "submit",
       disabled: isSubmitting

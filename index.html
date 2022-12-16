@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
     <script defer src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script defer src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
@@ -21,11 +21,6 @@
     <script defer src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script defer src="https://unpkg.com/formik@1.5.8/dist/formik.umd.production.js"></script>
     <script defer src="popup-form.js"></script>
-     <script>
-   function onSubmit(token) {
-     console.log("Success");
-   }
- </script>
 </head>
 <body>
 <div class="navbar-absolute">
@@ -973,11 +968,7 @@
                         </span>
                       </span>
                                 </label>
-                                <div class="g-recaptcha" 
-        data-sitekey="6LeXO4YjAAAAAMJ6PqwVuMuzawdg-6CSqouUgjTv"
-        data-theme ="dark" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</div>
+                                <div class="g-recaptcha" data-sitekey="6LeXO4YjAAAAAMJ6PqwVuMuzawdg-6CSqouUgjTv" data-theme ="dark">Submit</div>
                                 <input id="sendButton" type="submit" class="footer-contact-button" value="СВЯЖИТЕСЬ С НАМИ" disabled />
                             </form>
                         </div>
