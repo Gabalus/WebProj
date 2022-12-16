@@ -116,7 +116,7 @@ class MainForm extends React.Component {
     }, React.createElement("div", {
       id: "recaptcha",
       className: "g-recaptcha",
-      "data-sitekey": "6LesZTAaAAAAAENvkVmnCuOhPbCmr8wyVcery-wM",
+      "data-sitekey": "6LeXO4YjAAAAAMJ6PqwVuMuzawdg-6CSqouUgjTv",
       "data-theme": "dark",
       "data-callback": "captchaCallback",
       "data-expired-callback": "captchaCallback"
