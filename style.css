@@ -1192,6 +1192,14 @@ label.chb-block div:after {
 }
 
 /* FAQ */
+.for-back {
+	background: url(pictures/bg-faq.png) repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -45px;
+    margin-top: 66px;
+    padding: 40px 0;	
+}
 
 .faq h2 {
   padding-top: 68px;
